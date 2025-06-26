@@ -6,15 +6,14 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 // Screens
 
-import Home from './screens/Home';
 
 import { Colors } from './utils/Colors';
 import ProductDetails from './screens/ProductDetails';
-import CartList from './screens/CardtList';
 import SearchScreen from './screens/SearchScreen';
 import CategoryScreen from './screens/CategoryScreen';
 import SplashScreen from './screens/Splashscreen';
-import CartScreen from './screens/CardtList';
+import Home from './screens/HomeScreen';
+import CartScreen from './screens/CartScreen';
 
 // Icon Images
 const homeIcon = require('../src/assets/home.png');
@@ -86,7 +85,7 @@ const HomeTabs = () => {
       />
        <Tab.Screen
         name="Cart"
-        component={CartList}
+        component={CartScreen}
         options={{
           tabBarIcon: ({focused}) => (
             <Image

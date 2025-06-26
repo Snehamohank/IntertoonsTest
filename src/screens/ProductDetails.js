@@ -149,7 +149,7 @@ const ProductDetails = ({route, navigation}) => {
           <TouchableOpacity
             style={[styles.cartButton, styles.buyNowButton]}
             onPress={handleBuyNow}>
-            <Text style={styles.cartButtonText}>BUY NOW</Text>
+            <Text style={styles.cartButtonText}>GO TO CART</Text>
           </TouchableOpacity>
         ) : (
           <TouchableOpacity style={styles.cartButton} onPress={handleAddToCart}>

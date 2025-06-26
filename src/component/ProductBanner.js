@@ -2,7 +2,6 @@ import React, {useRef, useState} from 'react';
 import {Dimensions, Image, StyleSheet, View} from 'react-native';
 import Carousel, {Pagination} from 'react-native-snap-carousel';
 import Like from '../assets/like2.png';
-import bannerimg from '../assets/banner.png';
 import {Colors} from '../utils/Colors';
 
 const {width} = Dimensions.get('window');
